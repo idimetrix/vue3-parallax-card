@@ -24,3 +24,30 @@ export const WORDS: { title: string; description: string }[] = [
   { title: 'Effulgent', description: 'Shining brightly; radiant.' },
   { title: 'Redolent', description: 'Strongly reminiscent or suggestive of something.' },
 ]
+
+export const WEDDINGS: { title: string; description: string }[] = [
+  { title: 'N&A at Park Winters', description: 'N&A at Park Winters' },
+  { title: 'S&A at The Barn at Green Valley', description: 'S&A at The Barn at Green Valley' },
+  { title: 'V&J at Mill Valley Recreation', description: 'V&J at Mill Valley Recreation' },
+  {
+    title: 'R&H at Silver Creek Valley Country Club',
+    description: 'R&H at Silver Creek Valley Country Club',
+  },
+  { title: 'B&J at Blanco Urban Venue', description: 'B&J at Blanco Urban Venue' },
+  { title: 'H&A at Grand Island Mansion', description: 'H&A at Grand Island Mansion' },
+  {
+    title: 'V&A at Casa Real at Ruby Hill Winery',
+    description: 'V&A at Casa Real at Ruby Hill Winery',
+  },
+  { title: 'E&J at Palm Event Center', description: 'E&J at Palm Event Center' },
+  {
+    title: 'J&M at Garré Vineyard Restaurant & Event Center',
+    description: 'J&M at Garré Vineyard Restaurant & Event Center',
+  },
+  { title: 'D&P at the Grand Island Mansion', description: 'D&P at the Grand Island Mansion' },
+  { title: 'J&T at SF Palace of Fine Arts', description: 'J&T at SF Palace of Fine Arts' },
+  {
+    title: 'J&C at Saint Helena Catholic Church',
+    description: 'J&C at Saint Helena Catholic Church',
+  },
+]

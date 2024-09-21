@@ -6,6 +6,9 @@
     <Button as-child variant="secondary" size="lg">
       <NuxtLink to="/zoom"> Zoom Effect</NuxtLink>
     </Button>
+    <Button as-child variant="primary" size="lg">
+      <NuxtLink to="/wedding"> Wedding</NuxtLink>
+    </Button>
   </div>
 </template>
 
