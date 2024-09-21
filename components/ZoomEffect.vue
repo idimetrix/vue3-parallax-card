@@ -46,5 +46,5 @@ interface Props extends /** @vue-ignore */ HTMLAttributes {
   }
 }
 
-const props = withDefaults(defineProps<Props>(), {})
+withDefaults(defineProps<Props>(), {})
 </script>
