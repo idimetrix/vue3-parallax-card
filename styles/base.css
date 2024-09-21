@@ -41,6 +41,7 @@ body {
   tab-size: 4;
   font-feature-settings: normal;
   font-variation-settings: normal;
+  overflow: hidden auto;
 }
 
 body::-webkit-scrollbar {
