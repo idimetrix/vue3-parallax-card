@@ -1,9 +1,9 @@
 import { Tilt3d, type Settings } from 'tilt-3d'
 import type { DirectiveBinding } from 'vue'
 
-const map: Map<HTMLElement, Tilt3d> = new Map()
-
 export default defineNuxtPlugin((nuxtApp) => {
+  const map: Map<HTMLElement, Tilt3d> = new Map()
+
   nuxtApp.vueApp.directive<HTMLElement, Partial<Settings>>('tilt-3d', {
     mounted(el: HTMLElement, binding: DirectiveBinding<Partial<Settings>>) {
       if (map.has(el)) return
