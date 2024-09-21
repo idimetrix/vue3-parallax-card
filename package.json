@@ -1,5 +1,6 @@
 {
   "name": "vue3-parallax-card",
+  "description": "Vue3 Parallax Card (vue3-parallax-card)",
   "private": true,
   "type": "module",
   "scripts": {
