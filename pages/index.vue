@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <Button>123</Button>
+  <div class="flex w-full min-h-screen gap-3 items-center justify-center">
+        <Button as-child variant="secondary" size="lg">
+          <NuxtLink to="/tilt" >       Tilt Effect</NuxtLink>
+
+        </Button>
+        <Button as-child variant="secondary" size="lg">
+          <NuxtLink to="/zoom" >       Zoom Effect</NuxtLink>
+         </Button>
   </div>
 </template>
 
@@ -10,6 +16,4 @@ export default {
 }
 </script>
 
-<script setup lang="ts">
-import { Button } from '~/components/Button'
-</script>
+<script setup lang="ts"></script>

@@ -50,5 +50,16 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-  modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt'],
+  modules: [
+    '@pinia/nuxt',
+    '@pinia-plugin-persistedstate/nuxt',
+    '@nuxtjs/google-fonts',
+    '@nuxt/image',
+  ],
+  googleFonts: {
+    families: {
+      Lexend: [400, 500, 700], // Add the required font weights
+    },
+    display: 'swap', // Optional: This ensures the text remains visible during font load
+  },
 })

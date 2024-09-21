@@ -60,6 +60,7 @@ export default {
 
         'cynical-black': '#171717',
         'granulated-sugar': '#FFFBF2',
+        'ancient-stone': '#DDDAD3',
         sassy: '#C48564',
       },
 
