@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-hidden flex relative cursor-pointer justify-center items-center group">
-    <NuxtImg
+    <Imager
       class="aspect-square object-center object-cover flex group-hover:scale-105 relative w-full h-full transition-all duration-300"
       :src="item.src"
     />
